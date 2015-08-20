@@ -15,8 +15,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef SPARKFUN_MICRO_OLED_FONTS_H
-#define SPARKFUN_MICRO_OLED_FONTS_H
+#ifndef SPARKFUN_MICRO_OLED_12864_FONTS_H
+#define SPARKFUN_MICRO_OLED_12864_FONTS_H
 
 // Standard ASCII 5x7 font
 static const unsigned char font5x7[] = {
