@@ -14,8 +14,8 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#ifndef SPARKFUN_MICRO_OLED_H
-#define SPARKFUN_MICRO_OLED_H
+#ifndef SPARKFUN_MICRO_OLED_12864_H
+#define SPARKFUN_MICRO_OLED_12864_H
 
 #include <stdio.h>
 #include <stdint.h>
@@ -40,15 +40,15 @@
 #define BLACK 0
 #define WHITE 1
 
-#define LCDWIDTH			64
-#define LCDHEIGHT			48
-#define FONTHEADERSIZE		6
+#define LCDWIDTH			128 //64
+#define LCDHEIGHT			64 //48
+#define FONTHEADERSIZE			6
 
 #define NORM				0
-#define XOR					1
+#define XOR				1
 
 #define PAGE				0
-#define ALL					1
+#define ALL				1
 
 #define WIDGETSTYLE0			0
 #define WIDGETSTYLE1			1
