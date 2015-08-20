@@ -14,8 +14,8 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "SparkFunMicroOLED.h"
-#include "SparkFunMicroOLEDFonts.h"
+#include "SparkFunMicroOLED12864.h"
+#include "SparkFunMicroOLED12864Fonts.h"
 #include "math.h"
 
 // Change the total fonts included
@@ -289,7 +289,7 @@ void MicroOLED::clear(uint8_t mode, uint8_t c) {
 	}
 	else
 	{
-		memset(screenmemory,c,384);			// (64 x 48) / 8 = 384
+		memset(screenmemory,c,678);			// (64 x 48) / 8 = 384 || (128 x 64) /8 = 768
 		display();
 	}
 }
